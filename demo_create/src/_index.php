@@ -16,7 +16,9 @@
 	<!-- Custom styles for this template-->
 	<link href="../css/sb-admin-2.css" rel="stylesheet">
 
+<?php if(in_array($page, ['tables'])):?>
 	<link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+<?php endif?>
 </head>
 
 <body id="page-top">
@@ -200,7 +202,6 @@
 
 		<!-- Sidebar -->
 		<div class="bg-gradient-primary sidebar sidebar-dark fixed-top" id="accordionSidebar">
-
 
 			<ul class="navbar-nav accordion custom-scrollbar-css">
 
