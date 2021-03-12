@@ -1,0 +1,66 @@
+
+body {
+  overflow-y: scroll;
+}
+
+#content {
+  margin-top: 5.375rem;
+}
+
+.navbar {
+  padding: $navbar-padding-y $navbar-padding-x $navbar-padding-y 0;
+}
+
+.navbar .navbar-brand {
+  width: 14rem !important;
+  height: 4.375rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  z-index: 1;
+}
+
+.navbar .navbar-brand .navbar-brand-icon i {
+  font-size: 2rem;
+}
+
+.navbar .navbar-brand .navbar-brand-text {
+  display: none;
+}
+
+.navbar .navbar-brand .navbar-brand-icon i {
+  font-size: 2rem;
+}
+
+.navbar .navbar-brand .navbar-brand-text {
+  display: inline;
+}
+
+.sidebar .navbar-nav {
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 100vh;
+  padding-top: 4.375rem;
+}
+
+.custom-scrollbar-css {
+  overflow-y: scroll;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+  background: $light;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+  border-radius: 0rem;
+  background-color: $light;
+  background-image: linear-gradient(180deg, $light 10%, darken($light, 15%) 100%);
+}
